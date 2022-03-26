@@ -81,3 +81,15 @@ section p {
     justify-content: center;
     
 }
+#menutoggler{
+    display: none;
+}
+#menutoggler:checked ~ * .slidemenu {
+    visibility: visible;
+  }
+  #menutoggler:unchecked ~ * .slidemenu {
+    visibility: collapse;
+  }
+.delete{
+    color: #eb6f92;
+}
