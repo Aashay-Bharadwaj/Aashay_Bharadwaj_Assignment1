@@ -1,0 +1,54 @@
+*{
+    color: #31748f
+}
+body{
+    background-color:#ebbcba ;
+}
+textarea{
+    background-color: #e0def4;
+    width: 350px;
+    height: 250px;
+    text-decoration: none;
+    resize: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+nav ol li{
+    list-style: none;
+    display: flex;
+    float: left;
+    padding: 5px;
+    justify-content: space-between;
+    padding-top: 0px;
+   
+    
+}
+nav a {
+    text-decoration: none;
+    list-style-type: none;
+}
+button{
+    all: unset;
+    cursor: pointer;
+}
+.add {
+    font-size: xx-large;
+    padding-right: 10px;
+    display: flex;
+}
+
+footer p {  
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+}
+nav li{
+    list-style-type: none;
+    padding-top: 30px;
+}
