@@ -1,10 +1,13 @@
 *{
     color: #31748f
+
 }
 body{
     background-color:#ebbcba ;
 }
 textarea{
+    font-family: 'Hurricane', cursive;
+    font-size: 40px;
     background-color: #e0def4;
     width: 350px;
     height: 250px;
@@ -53,6 +56,7 @@ nav li{
     padding-top: 30px;
 }
 .slidemenu_home{
+    font-family: 'Arvo', serif;
     visibility: collapse;
     background-color: #f2e9e1;
     position: fixed;
@@ -64,6 +68,7 @@ nav li{
     
 }
 .slidemenu{
+    font-family: 'Arvo', serif;
     visibility: collapse;
     background-color: #f2e9e1;
     position: fixed;
@@ -117,3 +122,45 @@ section p {
   .close{
       float: right;
   }
+  @media screen and (max-width : 825px) and (max-height: 825px) {
+    .slidemenu_home{
+        font-family: 'Arvo', serif;
+        visibility: collapse;
+        background-color: #f2e9e1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-size: 20px;
+        width: 125px;
+        height: 100%;
+        padding: 20px 0;
+        
+    }
+    .slidemenu{
+        font-family: 'Arvo', serif;
+        visibility: collapse;
+        background-color: #f2e9e1;
+        position: fixed;
+        top: 0;
+        font-size: 15px;
+        left: 0;
+        width: 125px;
+        height: 100%;
+        padding: 20px 0;
+        
+    }
+    textarea{
+        width: 150px;
+        height: 125px;
+        font-size: 20px;
+    }
+    .buttons{
+        display: flex;
+        text-indent: 15px;
+        justify-content: center;
+        padding-left: 75px;
+        padding-top: 10px;
+        
+    } 
+
+  }  
