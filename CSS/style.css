@@ -52,6 +52,17 @@ nav li{
     list-style-type: none;
     padding-top: 30px;
 }
+.slidemenu_home{
+    visibility: collapse;
+    background-color: #f2e9e1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    
+}
 .slidemenu{
     visibility: collapse;
     background-color: #f2e9e1;
@@ -81,6 +92,9 @@ section p {
     justify-content: center;
     
 }
+#menutoggler_home{
+    display: none;
+}
 #menutoggler{
     display: none;
 }
@@ -93,3 +107,13 @@ section p {
 .delete{
     color: #eb6f92;
 }
+
+#menutoggler_home:checked ~ * .slidemenu_home {
+    visibility: visible;
+  }
+  #menutoggler_home:unchecked ~ * .slidemenu_home {
+    visibility: collapse;
+  }
+  .close{
+      float: right;
+  }
